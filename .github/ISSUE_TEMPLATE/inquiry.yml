@@ -1,0 +1,55 @@
+name: Professional Inquiry
+description: For recruitment, freelance, technical, or partnership inquiries about this project.
+title: "[Inquiry] "
+labels: ["inquiry"]
+body:
+  - type: dropdown
+    id: inquiry-type
+    attributes:
+      label: Inquiry Type
+      description: What best describes your inquiry?
+      options:
+        - Recruitment / Hiring
+        - Freelance / Consulting Opportunity
+        - Technical Question
+        - Partnership / Collaboration
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      placeholder: "Jane Smith"
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      placeholder: "Company or organization name"
+    validations:
+      required: false
+  - type: input
+    id: email
+    attributes:
+      label: Contact Email
+      placeholder: "jane@example.com"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Please describe your inquiry. For recruitment, include the role and how this project is relevant.
+      placeholder: "I'm reaching out about..."
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline (if applicable)
+      description: Any relevant deadlines or timeframes.
+      placeholder: "We're looking to fill this role by..."
+    validations:
+      required: false
