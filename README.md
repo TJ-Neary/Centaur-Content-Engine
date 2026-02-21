@@ -1,4 +1,4 @@
-<!-- ![Centaur](assets/social-preview.png) -->
+![Centaur](assets/social-preview.png)
 
 ![Showcase](https://img.shields.io/badge/type-showcase-purple?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
